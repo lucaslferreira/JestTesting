@@ -1,0 +1,15 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "Projeto mínimo para demonstrar o Jest",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:demo": "jest tests/failing.demo.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
